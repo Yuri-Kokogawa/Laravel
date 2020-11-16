@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 // 課題４
-Route::get('XXX','Admin/AAAcontroller@bbb');
+Route::get('XXX','Admin\AAAcontroller@bbb');
 
 // 課題５
 Route::get('admin/profile/create','Admin\ProfileController@add');
