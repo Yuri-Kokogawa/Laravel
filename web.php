@@ -19,5 +19,5 @@ Route::get('/', function () {
 Route::get('XXX','Admin/AAAcontroller@bbb');
 
 // 課題５
-Route::get('admin/profile/create','ProfileController/@add');
-Route::get('admin/profile/edit','ProfileController/@edit');
+Route::get('admin/profile/create','Admin\ProfileController@add');
+Route::get('admin/profile/edit','Admin\ProfileController@edit');
