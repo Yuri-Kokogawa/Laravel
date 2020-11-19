@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// 課題４
+// 課題４ PHP/Laravel 09 Routingについて理解する
 Route::get('XXX','Admin\AAAcontroller@bbb');
 
-// 課題５
+// 課題５ PHP/Laravel 09 Routingについて理解する
 Route::get('admin/profile/create','Admin\ProfileController@add');
 Route::get('admin/profile/edit','Admin\ProfileController@edit');
